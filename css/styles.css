@@ -1,3 +1,4 @@
+
 h1 {
   text-align: center;
   margin: 10%;
@@ -6,22 +7,28 @@ h1 {
 }
 h4 {
   border: 3px solid #095082;
-  margin: 20%;
+  margin: 10%;
   width: 350px;
-  height: 350px;
+  height: 450px;
   background-color: #9AD4F6;
   text-align: center;
-  padding: 20% 20% 20% 20%;
+  padding: 50% 20% 20% 20%;
 }
 p {
   display: none;
 }
  #jsp,#booleanp,#jqueryp,#functionsp,#stringsp,#nanp {
    border: 3px solid #095082;
-   margin: 20%;
+   margin: 10%;
    width: 350px;
-   height: 350px;
+   height: 450px;
    background-color: #9AD4F6;
    text-align: center;
-   padding: 10% 20% 20% 20%;
+   padding: 20% 20% 20% 20%;
+}
+
+.jsp:hover,.booleanp:hover,.jqueryp:hover,.functionsp:hover,.stringsp:hover,.nanp:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
 }
